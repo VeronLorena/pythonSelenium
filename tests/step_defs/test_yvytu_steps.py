@@ -1,6 +1,6 @@
 from pytest_bdd import scenarios, then, parsers
 from selenium.webdriver.common.by import By
-
+#Scenarios
 scenarios('../features/Yvytu.feature')
 
 @then(parsers.parse('el titulo principal es "{main_title}"'))

@@ -12,7 +12,7 @@ def browser():
     b.quit()
 
 @given(parsers.parse('que un usuario esta en la pagina "{web_name}"'))
-def go_home_page(browser,web_name):
+def go_home_page(browser, web_name):
     if web_name == "Yvytu":
         browser.get(YVYTU_HOME)
     elif web_name == "TiendaClaro":

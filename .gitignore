@@ -1,4 +1,5 @@
 Drivers
 geckodriver.log
+__pycache__
 tests/step_defs/__pycache__
 envpil/
